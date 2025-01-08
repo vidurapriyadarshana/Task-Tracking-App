@@ -3,7 +3,9 @@ package com.vidura.tasks.mappers.impl;
 import com.vidura.tasks.domain.dto.TaskDto;
 import com.vidura.tasks.domain.entities.Task;
 import com.vidura.tasks.mappers.TaskMapper;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TaskMapperImpl implements TaskMapper {
 
     @Override
